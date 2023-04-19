@@ -19,4 +19,5 @@
 ## 목차
 
 - [Recap of Math](./Recap-of-Math/Recap-of-Math.md)
+- [Linear Regression](./Linear-Regression/Linear-Regression.md)
 
