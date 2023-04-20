@@ -21,3 +21,4 @@
 - [Recap of Math](./Recap-of-Math/Recap-of-Math.md)
 - [Linear Regression](./Linear-Regression/Linear-Regression.md)
 - [Classification and Logistic-Regression](./Classification-and-Logistic-Regression/Classification-and-Logistic-Regression.md)
+- [Parametric Density Estimation](./Parametric-Density-Estimation/Parametric-Density-Estimation.md)
