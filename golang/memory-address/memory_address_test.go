@@ -48,10 +48,9 @@ func TestStructMemoryAddress(t *testing.T) {
 		c bool
 	}
 	type StructCase2 struct {
-		a  bool
-		b  bool
-		c1 bool
-		c  string
+		a bool
+		b bool
+		c string
 	}
 
 	var case1 StructCase1
@@ -64,7 +63,6 @@ func TestStructMemoryAddress(t *testing.T) {
 	fmt.Printf("case2  :\t%p\tType:\t%T\tSize:\t%d\n", &case2, case2, unsafe.Sizeof(case2))
 	fmt.Printf("case2.a:\t%p\tType:\t%T\tSize:\t%d\n", &case2.a, case2.a, unsafe.Sizeof(case2.a))
 	fmt.Printf("case2.b:\t%p\tType:\t%T\tSize:\t%d\n", &case2.b, case2.b, unsafe.Sizeof(case2.b))
-	fmt.Printf("case2.b:\t%p\tType:\t%T\tSize:\t%d\n", &case2.c1, case2.c1, unsafe.Sizeof(case2.c1))
 	fmt.Printf("case2.c:\t%p\tType:\t%T\tSize:\t%d\n", &case2.c, case2.c, unsafe.Sizeof(case2.c))
 
 	/*
